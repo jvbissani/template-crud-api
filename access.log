@@ -1,0 +1,2 @@
+::ffff:127.0.0.1 - - [30/Jul/2024:09:11:14 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0"
+::ffff:127.0.0.1 - - [30/Jul/2024:09:11:19 +0000] "GET /users HTTP/1.1" 200 437 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0"

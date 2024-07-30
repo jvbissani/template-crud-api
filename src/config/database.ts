@@ -8,9 +8,10 @@ const sequelize = new Sequelize(
   process.env.DB_USER!,
   process.env.DB_PASS!,
   {
-    host: process.env.DB_HOST,
-    dialect: process.env.DB_DIALECT as any,
-  }
+    host: process.env.POSTGRES_HOST || 'localhost',
+        port: process.env.POSTGRES_PORT ? parseInt(process.env.POSTGRES_PORT) : undefined,
+        dialect: 'postgres'
+    }
 );
 
 export default sequelize;
